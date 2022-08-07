@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <div class="container">
+        <form action="https://formspree.io/f/mqkjzoow"  method="POST" onsubmit=" active(); return true">
+            <h3>Fill The Enquiry Form</h3>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder=" Enter Your Email" required>
+            <input type="number" name="phone" placeholder="Enter Your Number" required>
+           <textarea name="message" rows="4" placeholder="What's on your mind?"></textarea>
+           <button type="submit" id="btn" >submit</button>
+        </form>
+
+        <div class="wrapper">
+            <div class="icon facebook">
+                <div class="tooltip"></div>
+                <span><i class="fab fa-facebook-f"></i></span>
+            </div>
+            <div class="icon twitter">
+                <div class="tooltip"></div>
+                <span><i class="fab fa-twitter"></i></span>
+            </div>
+            <div class="icon instagram">
+                <div class="tooltip"></div>
+                <span><i class="fab fa-instagram"></i></span>
+            </div>
+            <div class="icon youtube">
+                <div class="tooltip"></div>
+                <span><i class="fab fa-youtube"></i></span>
+            </div>
+        </div>
+
+     </div>
+    <script>
+    function active(){
+        alert("Plese press OK then, Submit Your Form Successfull");
+    }
+   </script>
+   
+</body>
+</html>
+
+
+<!--https://formspree.io/f/mlevrkkz-->

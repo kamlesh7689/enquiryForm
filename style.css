@@ -1,0 +1,107 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 100%;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+form{
+    background: #d9e8eb;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 30%;
+    max-width: 600%;
+    border-radius: 10px;
+}
+
+form h3{
+    font-family: "Sofia", sans-serif;
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+form button{
+    padding: 15px;
+    background: #92eb9a;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
+#btn:hover{
+    background-color: pink;
+}
+
+/* social sites */
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+    margin: 5px 5px;
+}
+.wrapper .icon{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    cursor: pointer; 
+}
+.wrapper .icon span{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrapper .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+
+.wrapper span:hover {
+    
+    background: rgb(233, 137, 219);
+    
+}

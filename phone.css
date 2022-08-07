@@ -1,0 +1,22 @@
+body{
+    background-color: red;
+}
+.container {
+    width: 264%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container::before {
+    content: "";
+    height: 280%;
+    width: 263%;
+}
+form {
+    
+   
+    
+    padding: 2vw 4vw;
+    width: 90%;
+    border-radius: 10px;
+}
